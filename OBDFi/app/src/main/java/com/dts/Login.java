@@ -64,19 +64,8 @@ EditText email,password;
         String emailValue=email.getText().toString();
 
         String passwordValue=password.getText().toString();
-    //   startActivity(new Intent(Login.this, AdminHome.class));
-   // String status=u.adminLogin(emailValue,passwordValue);
-     /*   String status=u.adminLogin(emailValue,passwordValue);
-        if(status.contentEquals("Success"))
-        {
-            startActivity(new Intent(Login.this, AdminHome.class));
-        }
-        else
-        {
-            AlertDialog dialog = new AlertDialog.Builder(Login.this).setTitle("Invalid Email Id or Password" )
-                    .setNeutralButton("ok", null).show();
-        }*/
-        if((emailValue.contentEquals("demo@thingsalive.com"))&&(passwordValue.contentEquals("password")))
+   
+      if((emailValue.contentEquals("demo@thingsalive.com"))&&(passwordValue.contentEquals("password")))
         {
 
             startActivity(new Intent(Login.this, AdminHome.class));

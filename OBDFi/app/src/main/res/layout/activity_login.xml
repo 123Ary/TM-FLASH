@@ -9,57 +9,34 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp"
-    >
-    <!--<androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/eichee_login_screen"
-        ></androidx.appcompat.widget.AppCompatImageView>-->
+     >
+<!--<androidx.appcompat.widget.AppCompatImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/eichee_login_screen"
+    ></androidx.appcompat.widget.AppCompatImageView>-->
 
-    <!--  <ImageView
+    <ImageView
 
-          android:layout_width="256dp"
-          android:layout_height="206dp"
-          android:layout_alignParentTop="true"
-          android:layout_marginTop="0dp"
-          android:background="@drawable/login_icon"
-          android:text=""
-          android:textColor="#FFFFFFFF"
-          android:textSize="24dp" />-->
-
-
-    <!--<ImageView
-
-        android:layout_width="182dp"
-        android:layout_height="73dp"
+        android:layout_width="256dp"
+        android:layout_height="206dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="18dp"
-        android:background="@drawable/sidia_logo"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/login_icon"
         android:text=""
         android:textColor="#FFFFFFFF"
-        android:textSize="24dp" />-->
+        android:textSize="24dp" />
 
-    <!--  <EditText
-        android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="44dp"
 
-        android:background="@drawable/shapeemail"
-        android:drawableLeft="@drawable/emailicon"
-        android:drawablePadding="10dp"
-        android:hint="Email"
-        android:padding="15dp"
-        android:textColor="@color/black"
-        android:textColorHighlight="@color/teal_700"
-        android:textColorHint="#DADFE1" />-->
+
 
     <EditText
         android:id="@+id/email"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="0dp"
 
         android:background="@drawable/shapeemail"
         android:drawableLeft="@android:drawable/sym_action_email"
@@ -128,17 +105,7 @@
          app:backgroundTint="@color/white"
          tools:text="Log in" />-->
 
-    <!--<ImageView
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="187dp"
-        android:layout_height="90dp"
-        android:background="@drawable/simson_logo"
-        android:editable="false"
-        android:ems="10"
-        android:inputType="textPersonName"
-
-        android:text=""
-        android:textSize="10dp" />-->
 
 
-</LinearLayout>
+
+   </LinearLayout>

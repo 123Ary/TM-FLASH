@@ -14,6 +14,7 @@ import android.provider.OpenableColumns;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.SearchView;
 import android.widget.TextView;
@@ -49,6 +50,7 @@ int flag=0;
     int i=2;
     int uploadStatus=0;
     TextView t,textviewDownload,textviewhexbin;
+    ImageView logo;
     String pathh="";
     upload u = new upload();
     File f = null;
@@ -88,9 +90,9 @@ int flag=0;
         verifyStoragePermissions(this);
         browse = (Button)findViewById(R.id.button1);
         browse.setOnClickListener(this::onClick);
-
+        logo=(ImageView) findViewById(R.id.logo);
         t=(TextView)findViewById(R.id.textview);
-
+        logo.setVisibility(View.INVISIBLE);
         t.setText("PROGRESS   :0");
         textviewDownload=(TextView)findViewById(R.id.textviewDownload);
         textviewhexbin=(TextView)findViewById(R.id.textviewhexbin);
@@ -104,7 +106,7 @@ int flag=0;
         hextobin=(Button)findViewById(R.id.button5);
         hextobin.setVisibility(View.INVISIBLE);
       //  hextobin.setOnClickListener(this::onClick);
-logout=(Button)findViewById(R.id.logout);
+        logout=(Button)findViewById(R.id.logout);
 
         logout.setOnClickListener(this::onClick);
     }
@@ -138,6 +140,9 @@ logout=(Button)findViewById(R.id.logout);
 
         System.out.println("path is :"+returnCursor.getString(nameIndex));
         System.out.println("path is :"+uri);
+        System.out.println("path is :"+uri.getPath());
+
+      //  pathh=FilePath;
        /* String[] filenametemp=path.split(File.separator);
         for(int j=0;j<filenametemp.length;j++)
         {
@@ -154,8 +159,7 @@ logout=(Button)findViewById(R.id.logout);
                     //no data present
                     return;
                 }
-                 pathh = folder.getPath();
-
+                pathh = folder.getPath();
 
                 if(flag==0)
                 {

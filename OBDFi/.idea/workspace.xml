@@ -129,7 +129,7 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/image.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap/play_store_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap/play_store_512.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/values-round/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
@@ -256,7 +256,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="G:/software/androidsdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -291,11 +291,11 @@
       <recent name="com.dts.obdfi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Android\TMTL_OBDFi\OBDFi\app\src\main\res\mipmap" />
+      <recent name="F:\Android\TMT\OBDFi\app\src\main\res\mipmap" />
+      <recent name="F:\Android\TMT\OBDFi\app\src\main\res\mipmap-anydpi-v26" />
       <recent name="F:\Android\BACKUP\backup5\OBDFi\app\sc\main\python" />
       <recent name="F:\Android\BACKUP\backup5\OBDFi\app\src\main" />
       <recent name="F:\Android\BACKUP\backup5\OBDFi\app\src\main\res\drawable" />
-      <recent name="F:\Android\BACKUP\backup5\OBDFi\app\src\main\python" />
     </key>
     <key name="android.template.860840377">
       <recent name="com.dts.obdfi" />
@@ -401,10 +401,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="200" y="110" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1656654483615" />
-    <state x="418" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652280354663">
+    <state x="418" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1658565490843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="418" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1652280354663" />
+    <state x="418" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1658565490843" />
     <state x="412" y="205" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1652033036526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -413,34 +413,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="118" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1654173493648" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1656653108152">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1658568970146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1656653108152" />
-    <state width="1157" height="231" key="GridCell.Tab.0.bottom" timestamp="1656666140161">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1658568970146" />
+    <state width="1150" height="2" key="GridCell.Tab.0.bottom" timestamp="1658569162216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1157" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1656666140161" />
-    <state width="1157" height="231" key="GridCell.Tab.0.center" timestamp="1656666140160">
+    <state width="1150" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1658569162216" />
+    <state width="1150" height="2" key="GridCell.Tab.0.center" timestamp="1658569162215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1157" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1656666140160" />
-    <state width="1157" height="231" key="GridCell.Tab.0.left" timestamp="1656666140160">
+    <state width="1150" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1658569162215" />
+    <state width="1150" height="2" key="GridCell.Tab.0.left" timestamp="1658569162215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1157" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1656666140160" />
-    <state width="1157" height="231" key="GridCell.Tab.0.right" timestamp="1656666140161">
+    <state width="1150" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1658569162215" />
+    <state width="1150" height="2" key="GridCell.Tab.0.right" timestamp="1658569162215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1157" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1656666140161" />
+    <state width="1150" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1658569162215" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1656654338274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1656654338274" />
-    <state x="504" y="141" key="chooseDestDirectoryDialog" timestamp="1656659261186">
+    <state x="504" y="141" key="chooseDestDirectoryDialog" timestamp="1658565503314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="504" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1656659261186" />
+    <state x="504" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1658565503314" />
     <state x="418" y="216" key="psd.add.jar.dependency.panel.dimension" timestamp="1652020492195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

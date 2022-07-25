@@ -14,17 +14,6 @@
     app:flow_maxElementsWrap="@android:integer/config_shortAnimTime"
     app:flow_verticalStyle="packed"
     tools:context=".MainActivity">
-
-
-    <!--  <Button
-        android:id="@+id/button2"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_alignParentRight="true"
-
-        android:background="@color/design_default_color_primary_variant"
-        android:text="LIVE PARAM"
-        app:backgroundTint="#A6D2FF" />-->
     <ImageButton
         android:id="@+id/icontest"
         android:layout_width="wrap_content"
@@ -36,12 +25,23 @@
 
         android:src="@drawable/logo_ei" />
 
- <Button
+    <!--  <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+
+        android:background="@color/design_default_color_primary_variant"
+        android:text="LIVE PARAM"
+        app:backgroundTint="#A6D2FF" />-->
+
+
+    <Button
         android:id="@+id/logout"
         android:layout_width="32dp"
         android:layout_height="39dp"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_marginLeft="245dp"
+        android:layout_alignLeft="@id/logo"
+        android:layout_marginLeft="215dp"
         android:layout_marginTop="10dp"
         android:height="60dp"
         android:background="@drawable/user_icon"
@@ -56,7 +56,7 @@
         android:textStyle="bold"
         app:backgroundTint="@color/white" />
 
-    <!--   <ImageView
+    <ImageView
         android:id="@+id/logo"
         android:layout_width="194dp"
         android:layout_height="64dp"
@@ -66,7 +66,8 @@
         android:background="@drawable/sidia_logo"
         android:text=""
         android:textColor="#FFFFFFFF"
-        android:textSize="24dp" />-->
+        android:textSize="24dp"
+        />
 <!--
     <Button
         android:id="@+id/button2"
@@ -170,7 +171,7 @@
         android:id="@+id/button4"
         android:layout_width="271dp"
         android:layout_height="405dp"
-        android:layout_marginLeft="45dp"
+        android:layout_marginLeft="65dp"
         android:layout_marginTop="170dp"
          android:background="@drawable/shapecenterdiv"
         android:backgroundTint="#04A724"
@@ -309,7 +310,7 @@
 
     </RelativeLayout>
 
-  <!--  <ImageView
+    <!--<ImageView
 
         android:layout_width="182dp"
         android:layout_height="73dp"
@@ -319,6 +320,6 @@
         android:background="@drawable/simson_logo"
         android:text=""
         android:textColor="#FFFFFFFF"
-        android:textSize="24dp" />
--->
+        android:textSize="24dp" />-->
+
 </RelativeLayout>
